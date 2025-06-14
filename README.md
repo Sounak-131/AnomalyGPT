@@ -110,3 +110,6 @@ the 12th line of code decides the setting whereas the 13th line state the type o
 the 15th line of code decides the setting whereas the 16th line state the type of few-shot. For instance, if default is set to True, it performs few-shot, otherwise for False, it performs zero-shot. In the 16th line, if default is set to 'k', it performs k-shot anomaly detection. This way, the anomaly scores of respective objects were calculated and put on the same spreadsheet as found in this repository.
 
 ## Demonstration
+
+Here are some of the screnshoots, that was simulated while running the web_demo.py file, in order to get a rough idea about the model and implementation.
+
