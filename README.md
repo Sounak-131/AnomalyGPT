@@ -65,6 +65,6 @@ Afterwards, download the following pretrained checkpoints and place it in respec
 
 <a href="https://storage.googleapis.com/vicuna-delta-bucket/vicuna-7b-final.zip">Vicuna-7B</a>, unzip it and place it on <a>./pretrained_ckpt/</a> directory<br>
 
-<a href="https://huggingface.co/openllmplayground/pandagpt_7b_max_len_1024/resolve/main/pytorch_model.pt?download=true">, plact it on <a>./pretrained_ckpt/pandagpt_ckpt/7b/</a> directory<br>
+<a href="https://huggingface.co/openllmplayground/pandagpt_7b_max_len_1024/resolve/main/pytorch_model.pt?download=true">,Panda GPT<a>, place it on <a>./pretrained_ckpt/pandagpt_ckpt/7b/</a> directory<br>
 
 ## Demonstration
