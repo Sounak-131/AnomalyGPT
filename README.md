@@ -81,11 +81,13 @@ Download the VisA dataset and place it on <pre>./data/</pre> After extracting al
 
 Foe training the model or changing the parameters from 7B to 13B, click on this <a href="https://github.com/CASIA-IVA-Lab/AnomalyGPT?tab=readme-ov-file">link</a>
 
-Make sure that the swap disk on your OS/VM is not empty, if found empty, run the following code on your terminal:
+Make sure that the swap disk on your OS/VM is not empty. To verify, run the command "free -h" to check the value of swap. If found zero, run the following code on your terminal:
 <pre>sudo fallocate -l 16G /swapfile
 sudo chmod 600 /swapfile
 sudo mkswap /swapfile
 sudo swapon /swapfile</pre>
+
+Then recheck it by again running "free -h"
 
 To run the web demo and simulate the model, run the following code:
 <pre>cd ./code/
