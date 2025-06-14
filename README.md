@@ -82,7 +82,7 @@ Download the VisA dataset and place it on <pre>./data/</pre> After extracting al
 
 <a href="https://huggingface.co/datasets/openllmplayground/pandagpt_visual_instruction_dataset/resolve/main/pandagpt4_visual_instruction_data.json?download=true">Pretrained PandaGPT</a>, place it on <pre>./data/</pre>
 
-Foe training the model or changing the parameters from 7B to 13B, click on this <a href="https://github.com/CASIA-IVA-Lab/AnomalyGPT?tab=readme-ov-file">link</a>
+Optional: For training the model or changing the parameters from 7B to 13B, click on this <a href="https://github.com/CASIA-IVA-Lab/AnomalyGPT?tab=readme-ov-file">link</a>
 
 Optional: Increase VM Swap Memory
 If your swap shows zero (free -h), run:
