@@ -43,6 +43,28 @@ Now the virtual machine is set up. Let us continue with the project
 Clone the repository locally:
 
 <pre> git clone https://github.com/Sounak-131/AnomalyGPT.git </pre>
-<pre> cd AnomalyGPT</pre>
+Set up a Virtual Environment:
+
+<pre>python3.10 -m venv venv </pre>
+
+Then on Windows:
+
+<pre>venv\Scripts\activate</pre>
+
+Or on MacOS/Linux/WSL2:
+
+<pre>source venv/bin/activate</pre>
+
+Install the required dependencies:
+
+<pre>pip install -r requirements.txt</pre>
+
+Afterwards, download the following pretrained checkpoints and place it in respective directories:
+
+<a href="https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth">ImageBind Huge</a>, place it on <a>./pretrained_ckpt/imagebind_ckpt/</a> directory<br>
+
+<a href="https://storage.googleapis.com/vicuna-delta-bucket/vicuna-7b-final.zip">Vicuna-7B</a>, unzip it and place it on <a>./pretrained_ckpt/</a> directory<br>
+
+<a href="https://huggingface.co/openllmplayground/pandagpt_7b_max_len_1024/resolve/main/pytorch_model.pt?download=true">, plact it on <a>./pretrained_ckpt/pandagpt_ckpt/7b/</a> directory<br>
 
 ## Demonstration
