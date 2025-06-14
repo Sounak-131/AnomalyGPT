@@ -64,23 +64,23 @@ Install the required dependencies:
 
 Afterwards, download the following pretrained checkpoints and place it in respective directories:
 
-<a href="https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth">ImageBind Huge</a>, place it on <pre>./pretrained_ckpt/imagebind_ckpt/</pre>
+<a href="https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth">ImageBind Huge</a>, place it on `./pretrained_ckpt/imagebind_ckpt/`
 
-<a href="https://storage.googleapis.com/vicuna-delta-bucket/vicuna-7b-final.zip">Vicuna-7B</a>, unzip it and place it on <pre>./pretrained_ckpt/</pre>
+<a href="https://storage.googleapis.com/vicuna-delta-bucket/vicuna-7b-final.zip">Vicuna-7B</a>, unzip it and place it on `./pretrained_ckpt/`
 
-<a href="https://huggingface.co/openllmplayground/pandagpt_7b_max_len_1024/resolve/main/pytorch_model.pt?download=true">Panda GPT<a>, place it on <pre>./pretrained_ckpt/pandagpt_ckpt/7b/</pre>
+<a href="https://huggingface.co/openllmplayground/pandagpt_7b_max_len_1024/resolve/main/pytorch_model.pt?download=true">Panda GPT<a>, place it on `./pretrained_ckpt/pandagpt_ckpt/7b/`
 
-<a href="https://huggingface.co/FantasticGNU/AnomalyGPT/resolve/main/train_mvtec/pytorch_model.pt">Unsupervised on MVTec-AD<a>, place it on <pre>./code/ckpt/train_mvtec</pre>
+<a href="https://huggingface.co/FantasticGNU/AnomalyGPT/resolve/main/train_mvtec/pytorch_model.pt">Unsupervised on MVTec-AD<a>, place it on `./code/ckpt/train_mvtec`
 
-<a href="https://huggingface.co/FantasticGNU/AnomalyGPT/resolve/main/train_visa/pytorch_model.pt">Unsupervised on VisA<a>, place it on <pre>./code/ckpt/train_visa</pre>
+<a href="https://huggingface.co/FantasticGNU/AnomalyGPT/resolve/main/train_visa/pytorch_model.pt">Unsupervised on VisA<a>, place it on `./code/ckpt/train_visa`
 
-<a href="https://huggingface.co/FantasticGNU/AnomalyGPT/resolve/main/train_supervised/pytorch_model.pt">Supervised on MVTec-AD, VisA<a>, place it on <pre>./code/ckpt/train_supervised</pre>
+<a href="https://huggingface.co/FantasticGNU/AnomalyGPT/resolve/main/train_supervised/pytorch_model.pt">Supervised on MVTec-AD, VisA<a>, place it on `./code/ckpt/train_supervised`
 
-Download the MVTec-AD dataset and place it on <pre>./data/</pre> Make sure you rename the folder to <b>mvtec_anomaly_detection</b>
+Download the MVTec-AD dataset and place it on `./data/` Make sure you rename the folder to <b>mvtec_anomaly_detection</b>
 
-Download the VisA dataset and place it on <pre>./data/</pre> After extracting all of the folders, put all of them together in a folder named <b>VisA</b>
+Download the VisA dataset and place it on `./data/` After extracting all of the folders, put all of them together in a folder named <b>VisA</b>
 
-<a href="https://huggingface.co/datasets/openllmplayground/pandagpt_visual_instruction_dataset/resolve/main/pandagpt4_visual_instruction_data.json?download=true">Pretrained PandaGPT</a>, place it on <pre>./data/</pre>
+<a href="https://huggingface.co/datasets/openllmplayground/pandagpt_visual_instruction_dataset/resolve/main/pandagpt4_visual_instruction_data.json?download=true">Pretrained PandaGPT</a>, place it on `./data/`
 
 Optional: For training the model or changing the parameters from 7B to 13B, click on this <a href="https://github.com/CASIA-IVA-Lab/AnomalyGPT?tab=readme-ov-file">link</a>
 
