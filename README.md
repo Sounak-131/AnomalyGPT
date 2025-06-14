@@ -114,7 +114,7 @@ parser.add_argument("--k_shot", type=int, default=1)        # Set to 1 or 2 for 
 
 ## Demonstration
 
-Here are some of the screnshoots, that was simulated while running the web_demo.py file, in order to get a rough idea about the model and implementation.
+Here are some screenshots taken while running `web_demo.py`:
 
 1. One-shot Anomaly Detection, for testing normal images.
 
