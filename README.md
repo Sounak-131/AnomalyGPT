@@ -47,17 +47,16 @@ In order to integrate the SSH terminal into the VS Code, watch this video - [htt
 Clone the repository locally:
 
 <pre> git clone https://github.com/Sounak-131/AnomalyGPT.git </pre>
-Set up a Virtual Environment:
 
-<pre>python3.10 -m venv venv </pre>
+Set up and activate a virtual environment:
 
-Then on Windows:
-
-<pre>venv\Scripts\activate</pre>
-
-Or on MacOS/Linux/WSL2:
-
-<pre>source venv/bin/activate</pre>
+<pre>
+python3.10 -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On Linux/Mac/WSL:
+source venv/bin/activate
+</pre>
 
 Install the required dependencies:
 
