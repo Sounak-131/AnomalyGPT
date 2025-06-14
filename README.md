@@ -34,11 +34,13 @@ vi) Make sure the image of VM is selected to <b>Deep Learning VM with CUDA 11.8 
 
 This way, the Virtual Machine with NVIDIA CUDA support is created and a browser specific-SSH terminal is also opened, asking you to install NVIDIA driver for you (you must allow it by typing and entering "yes")<br>
 
-In order to integrate the SSH terminal into the VSCode, watch this video - [https://youtu.be/Cb13DAB59Po?si=30gMQu1rhx4gn7LO]<br>
+In order to integrate the SSH terminal into the VS Code, watch this video - [https://youtu.be/Cb13DAB59Po?si=30gMQu1rhx4gn7LO]<br>
 
 Now the virtual machine is set up. Let us continue with the project
 
 ### 2. Code Reproduction Process
+
+Clone the repository locally:
 
 <pre> okj </pre>
 
