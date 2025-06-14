@@ -3,6 +3,9 @@
 ## 🧾 Table of Contents
 - [Overview](#overview)
 - [Getting Started](#getting-started)
+  - [1. Virtual Machine Setup (Recommended)](#1-virtual-machine-setup-recommended)
+  - [2. Code Reproduction Process](#2-code-reproduction-process)
+  - [3. Benchmarking Procedure](#3-benchmarking-procedure)
 - [Demonstration](#demonstration)
 
 ## Overview
@@ -18,7 +21,7 @@ This repository contains:
 
 ## Getting Started
 
-### 1. Virtual Machine Setup
+### 1. Virtual Machine Setup (Recommended)
 This content would guide you through the detailed procedure of installing a Virtual Machine via SSH from Google Cloud Console. To do the following, follow these steps:<br><br>
 i) Make sure you have a valid google account, and remaining credit score of atleast 150 $ for the model to run most of its components and have a quota for 1 GPU (if not, request a quota for increasing the credit to atleast 150 $)<br>
 
