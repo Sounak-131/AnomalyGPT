@@ -33,7 +33,7 @@ Follow these steps to configure a GCP VM (recommended if your system has <32GB R
 
  - **GPU:** NVIDIA L4  
  - **Machine type:** g2-standard-8 (8 vCPU, 32GB RAM) or higher 
- - **Image:** *Deep Learning VM with CUDA 11.8 (M126)* 
+ - **Image:** *Deep Learning VM with CUDA 11.8 (M126)* 
 
 (iv) The region should be selected accordingly based on this <a href="https://cloud.google.com/compute/docs/gpus/gpu-regions-zones">link</a><br>
 
