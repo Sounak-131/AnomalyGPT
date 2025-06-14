@@ -3,7 +3,7 @@
 ## 🧾 Table of Contents
 - [Overview](#overview)
 - [Getting Started](#getting-started)
-- [Demo](#demo)
+- [Demonstration](#demonstration)
 
 ## Overview
 
@@ -11,13 +11,14 @@ AnomalyGPT is a large vision-language model (LVLM) framework designed for indust
 
 Unlike traditional anomaly detectors that rely on handcrafted features or dense patch comparisons, AnomalyGPT leverages the strengths of Large Language Models (LLMs) to generate natural language justifications and detailed pixel-level anomaly maps.
 
-The given contents would guide you on replicating the model on your operating system or the Virtual Machine from Google Cloud Console. 
+This repository contains:
+- Setting up the Virtual Machine on Google Cloud Console (recommended if your OS RAM is less than 32 GB)
+- Reproduced evaluation pipelines for MVTec-AD and VisA datasets
+- Benchmarking procedure for zero-, one-, and two-shot settings
 
 ## Getting Started
 
-- ✅ Easy to use
-- ⚡ Fast performance
-- 🌐 Supports multiple news sources
-- 📦 Outputs data in structured format
+### Virtual Machine Setup
+fenvjlesbvrf
 
-## Demo
+## Demonstration
