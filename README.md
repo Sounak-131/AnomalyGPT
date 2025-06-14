@@ -134,3 +134,5 @@ Here are some of the screnshoots, that was simulated while running the web_demo.
 5. Model is prone to make wrong predictions for hard-to-identify defective images.
 
 ![Demo Screenshot](screenshots/Demo_6.png)
+
+For video demo - https://www.youtube.com/watch?v=lcxBfy0YnNA
