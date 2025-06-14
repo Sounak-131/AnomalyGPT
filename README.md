@@ -97,21 +97,20 @@ python3 web_demo.py</pre>
 
 ### 3. Benchmarking Procedure
 
-To evaluate the scores (Accuracy, Image-AUROC, Pixel-AUROC) run the <b>python3 test_mvtec.py</b> for MVTec-AD dataset and <b>python3 test_visa.py</b> for VisA dataset. For few shot settings: let us look at 2 lines of code, which ultimately decides the configuration of the model.
+Run the following to evaluate MVTec and VisA datasets:
 
-- MVTec-AD (test_mvtec.py)
 <pre>
-  12 | parser.add_argument("--few_shot", type=bool, default=True)
-  13 | parser.add_argument("--k_shot", type=int, default=1)
+python3 test_mvtec.py     # For MVTec-AD
+python3 test_visa.py      # For VisA
 </pre>
-the 12th line of code decides the setting whereas the 13th line state the type of few-shot. For instance, if default is set to True, it performs few-shot, otherwise for False, it performs zero-shot. In the 13th line, if default is set to 'k', it performs k-shot anomaly detection. This way, the anomaly scores of respective objects were calculated and put on the spreadsheet as found in this repository.
 
-- VisA (test_visa.py)
+Edit the following lines in both scripts to configure inference mode:
+
 <pre>
-  15 | parser.add_argument("--few_shot", type=bool, default=True)
-  16 | parser.add_argument("--k_shot", type=int, default=1)
+parser.add_argument("--few_shot", type=bool, default=True)  # True = few-shot; False = zero-shot
+parser.add_argument("--k_shot", type=int, default=1)        # Set to 1 or 2 for 1-shot or 2-shot
 </pre>
-the 15th line of code decides the setting whereas the 16th line state the type of few-shot. For instance, if default is set to True, it performs few-shot, otherwise for False, it performs zero-shot. In the 16th line, if default is set to 'k', it performs k-shot anomaly detection. This way, the anomaly scores of respective objects were calculated and put on the same spreadsheet as found in this repository.
+
 
 ## Demonstration
 
