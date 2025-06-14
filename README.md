@@ -79,4 +79,20 @@ Download the VisA dataset and place it on <pre>./data/</pre> After extracting al
 
 <a href="https://huggingface.co/datasets/openllmplayground/pandagpt_visual_instruction_dataset/resolve/main/pandagpt4_visual_instruction_data.json?download=true">Pretrained PandaGPT</a>, place it on <pre>./data/</pre>
 
+Foe training the model or changing the parameters from 7B to 13B, click on this <a href="https://github.com/CASIA-IVA-Lab/AnomalyGPT?tab=readme-ov-file">link</a>
+
+Make sure that the swap disk on your OS/VM is not empty, if found empty, run the following code on your terminal:
+<pre>sudo fallocate -l 16G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile</pre>
+
+To run the web demo and simulate the model, run the following code:
+<pre>cd ./code/
+python3 web_demo.py</pre>
+
+### 3. Benchmarking Procedure
+
+
+
 ## Demonstration
