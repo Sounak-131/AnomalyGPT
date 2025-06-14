@@ -115,3 +115,22 @@ the 15th line of code decides the setting whereas the 16th line state the type o
 
 Here are some of the screnshoots, that was simulated while running the web_demo.py file, in order to get a rough idea about the model and implementation.
 
+1. One-shot Anomaly Detection, for testing normal images.
+
+![Demo Screenshot](screenshots/Demo_2.png)
+
+2. One-shot Anomaly Detection, for testing anomalous images.
+
+![Demo Screenshot](screenshots/Demo_3.png)
+
+3. Zero-shot Anomaly Detection. As seen in the image, the model is making a wrong prediction due to insufficient support of normal images for reference. Thus the model has to rely only on textual descriptions of an image for prediction.
+
+![Demo Screenshot](screenshots/Demo_5.png)
+
+4. If for the same defect, a normal image is given, then the model would make a correct prediction, although the prompt is not precise.
+
+![Demo Screenshot](screenshots/Demo_4.png)
+
+5. Model is prone to make wrong predictions for hard-to-identify defective images.
+
+![Demo Screenshot](screenshots/Demo_6.png)
