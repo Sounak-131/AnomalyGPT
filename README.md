@@ -1,6 +1,6 @@
 # AnomalyGPT
 
-## 🧾 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Getting Started](#getting-started)
   - [1. Virtual Machine Setup (Recommended)](#1-virtual-machine-setup-recommended)
