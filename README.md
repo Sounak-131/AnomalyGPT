@@ -37,7 +37,7 @@ Follow these steps to configure a GCP VM (recommended if your system has <32GB R
 
 (iv) The region should be selected accordingly based on this <a href="https://cloud.google.com/compute/docs/gpus/gpu-regions-zones">link</a><br>
 
-(v) Accept the NVIDIA driver installation prompt with `"yes"`. 
+(v) Accept the NVIDIA driver installation prompt with `yes`. 
 
 In order to integrate the SSH terminal into the VS Code, watch this video - [https://youtu.be/Cb13DAB59Po?si=30gMQu1rhx4gn7LO]<br>
 
