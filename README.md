@@ -42,7 +42,7 @@ Now the virtual machine is set up. Let us continue with the project
 
 Clone the repository locally:
 
-<pre> https://github.com/Sounak-131/AnomalyGPT.git </pre>
+<pre> git clone https://github.com/Sounak-131/AnomalyGPT.git </pre>
 <pre> cd AnomalyGPT</pre>
 
 ## Demonstration
