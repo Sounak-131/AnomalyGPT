@@ -124,15 +124,15 @@ Here are some screenshots taken while running `web_demo.py`:
 
 ![Demo Screenshot](screenshots/Demo_3.png)
 
-3. Zero-shot Anomaly Detection. As seen in the image, the model is making a wrong prediction due to insufficient support of normal images for reference. Thus the model has to rely only on textual descriptions of an image for prediction.
+3. Zero-shot detection failing on an ambiguous image:
 
 ![Demo Screenshot](screenshots/Demo_5.png)
 
-4. If for the same defect, a normal image is given, then the model would make a correct prediction, although the prompt is not precise.
+4. Correction using a reference image:
 
 ![Demo Screenshot](screenshots/Demo_4.png)
 
-5. Model is prone to make wrong predictions for hard-to-identify defective images.
+5. Failure case on hard-to-detect defect:
 
 ![Demo Screenshot](screenshots/Demo_6.png)
 
