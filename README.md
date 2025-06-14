@@ -22,24 +22,25 @@ This repository contains:
 ## Getting Started
 
 ### 1. Virtual Machine Setup (Recommended)
-This content would guide you through the detailed procedure of installing a Virtual Machine via SSH from Google Cloud Console. To do the following, follow these steps:<br><br>
-i) Make sure you have a valid google account, and remaining credit score of atleast 150 $ for the model to run most of its components and have a quota for 1 GPU (if not, request a quota for increasing the credit to atleast 150 $)<br>
 
-ii) On the Cloud Console, navigate to Google Compute Engine -> VM instances<br>
+Follow these steps to configure a GCP VM (recommended if your system has <32GB RAM):
 
-iii) Create a new instance<br>
+(i) Use a valid Google account and ensure at least **$150 in credits** with **GPU quota**
 
-iv) Select NVIDIA L4 and region should be selected based on this <a href="https://cloud.google.com/compute/docs/gpus/gpu-regions-zones">link</a><br>
+(ii) Go to **Compute Engine → VM Instances**. 
 
-v) Select the g2-standard-8 series (with 8 vCPU, 4 core, 32 GB memory or higher, if the budget allows)<br>
+(iii) Create a new instance with:  
 
-vi) Make sure the image of VM is selected to <b>Deep Learning VM with CUDA 11.8 M126</b><br>
+ - **GPU:** NVIDIA L4  
+ - **Machine type:** g2-standard-8 (8 vCPU, 32GB RAM) or higher 
+ - **Image:** *Deep Learning VM with CUDA 11.8 (M126)* 
 
-This way, the Virtual Machine with NVIDIA CUDA support is created and a browser specific-SSH terminal is also opened, asking you to install NVIDIA driver for you (you must allow it by typing and entering "yes")<br>
+(iv) The region should be selected accordingly based on this <a href="https://cloud.google.com/compute/docs/gpus/gpu-regions-zones">link</a><br>
+
+(v) Accept the NVIDIA driver installation prompt with `"yes"`. 
 
 In order to integrate the SSH terminal into the VS Code, watch this video - [https://youtu.be/Cb13DAB59Po?si=30gMQu1rhx4gn7LO]<br>
 
-Now the virtual machine is set up. Let us continue with the project
 
 ### 2. Code Reproduction Process
 
